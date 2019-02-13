@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[如何写一篇hexo的文章]]></title>
     <url>%2F2019%2F02%2F13%2F%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[主要介绍下如何用 hexo 与 markdown 写文章的一些技巧,由于在文章中采用markdown语法会导致主页的内容中出现 ## 等的渲染,导致主页混乱,所以需要在文章第一段写一些文章简介,来避免主页混乱的问题 创建hexo的hexo new [post] 文章标题 设置Front-matter在文章的 --- 分割的区域就是 Front-matter 可设置如下参数 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签 （不适用于分页） categories 分类 （不适用于分页） permalink 覆盖文章网址 分类和标签12345categories:- Diarytags:- PS3- Games 引用1234//地址可省略&#123;% blockquote Seth Godin %&#125;Every interaction is both precious and an opportunity to delight.&#123;% endblockquote %&#125; Every interaction is both precious and an opportunity to delight. Seth Godin Array.map1array.map(callback[, thisArg]) iframe{ % iframe url [width] [height] % } Image{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %}]]></content>
+    <content type="text"><![CDATA[主要介绍下如何用 hexo 与 markdown 写文章的一些技巧,由于在文章中采用markdown语法会导致主页的内容中出现 ## 等的渲染,导致主页混乱,所以需要在文章第一段写一些文章简介,来避免主页混乱的问题 创建hexo的hexo new [post] 文章标题 设置Front-matter在文章的 --- 分割的区域就是 Front-matter 可设置如下参数 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签 （不适用于分页） categories 分类 （不适用于分页） permalink 覆盖文章网址 分类和标签12345categories:- Diarytags:- PS3- Games 引用1234//地址可省略&#123;% blockquote Seth Godin %&#125;Every interaction is both precious and an opportunity to delight.&#123;% endblockquote %&#125; Every interaction is both precious and an opportunity to delight. Seth Godin Array.map1array.map(callback[, thisArg]) iframe{ % iframe url [width] [height] % } Image{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %} 转载请说明出处 http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -11,17 +11,17 @@
   <entry>
     <title><![CDATA[demo2]]></title>
     <url>%2F2019%2F02%2F12%2Fdemo2%2F</url>
-    <content type="text"><![CDATA[1hello 哈哈]]></content>
+    <content type="text"><![CDATA[1hello 哈哈 转载请说明出处 http://idcpj.github.io/2019/02/12/demo2/]]></content>
   </entry>
   <entry>
     <title><![CDATA[demo]]></title>
     <url>%2F2019%2F02%2F12%2Fdemo%2F</url>
-    <content type="text"><![CDATA[this is a demo]]></content>
+    <content type="text"><![CDATA[this is a demo 转载请说明出处 http://idcpj.github.io/2019/02/12/demo/]]></content>
   </entry>
   <entry>
     <title><![CDATA[My New Post]]></title>
     <url>%2F2019%2F02%2F12%2FMy-New-Post%2F</url>
-    <content type="text"><![CDATA[== 二级标题 == 您可以使用’’段落标题’’来更好地编排文章结构。 维基的软件会自动将文章中的标题生成一个目录。 === 三级标题 === 输入更多的“等于号”(=)可以创建更多下一级标题。 ==== 四级标题 ==== 请不要跳跃标题等级，例如二级标题之下直接就是四级标题，而没有三级标题。一级标题是页面名称（如帮助:编辑页面）。 请在输入标题时最少使用2个等于号(=)，而不是1个。 ===== 五级标题 =====]]></content>
+    <content type="text"><![CDATA[== 二级标题 == 您可以使用’’段落标题’’来更好地编排文章结构。 维基的软件会自动将文章中的标题生成一个目录。 === 三级标题 === 输入更多的“等于号”(=)可以创建更多下一级标题。 ==== 四级标题 ==== 请不要跳跃标题等级，例如二级标题之下直接就是四级标题，而没有三级标题。一级标题是页面名称（如帮助:编辑页面）。 请在输入标题时最少使用2个等于号(=)，而不是1个。 ===== 五级标题 ===== 转载请说明出处 http://idcpj.github.io/2019/02/12/My-New-Post/]]></content>
       <categories>
         <category>技术</category>
       </categories>
@@ -29,7 +29,7 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F02%2F12%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment 转载请说明出处 http://idcpj.github.io/2019/02/12/hello-world/]]></content>
       <tags>
         <tag>demo</tag>
         <tag>demo2</tag>
