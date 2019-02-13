@@ -3,7 +3,10 @@
   <entry>
     <title><![CDATA[demo2]]></title>
     <url>%2F2019%2F02%2F12%2Fdemo2%2F</url>
-    <content type="text"><![CDATA[asdasdada]]></content>
+    <content type="text"><![CDATA[1hello 哈哈]]></content>
+      <tags>
+        <tag>demo2;demo3;demo4</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[demo]]></title>
