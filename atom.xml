@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>泡沫</title>
   
-  
+  <subtitle>技术与生活的安放处</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-02-13T01:51:11.356Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://idcpj.github.io/"/>
+  <updated>2019-02-13T03:59:38.827Z</updated>
+  <id>http://idcpj.github.io/</id>
   
   <author>
     <name>idcpj</name>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>demo2</title>
-    <link href="http://yoursite.com/2019/02/12/demo2/"/>
-    <id>http://yoursite.com/2019/02/12/demo2/</id>
-    <published>2019-02-12T09:24:00.000Z</published>
-    <updated>2019-02-13T01:51:11.356Z</updated>
+    <title>如何写一篇hexo的文章</title>
+    <link href="http://idcpj.github.io/2019/02/13/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <id>http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/</id>
+    <published>2019-02-13T02:37:16.000Z</published>
+    <updated>2019-02-13T03:59:38.827Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello</span><br></pre></td></tr></table></figure><p>哈哈</p>]]></content>
+    <content type="html"><![CDATA[<p>主要介绍下如何用 <code>hexo</code>  与 <code>markdown</code> 写文章的一些技巧,由于在文章中采用<code>markdown</code>语法会导致主页的内容中出现 <code>##</code> 等的渲染,导致主页混乱,所以需要在文章第一段写一些文章简介,来避免主页混乱的问题</p><h2 id="创建hexo的"><a href="#创建hexo的" class="headerlink" title="创建hexo的"></a>创建hexo的</h2><p><code>hexo new [post] 文章标题</code></p><h2 id="设置Front-matter"><a href="#设置Front-matter" class="headerlink" title="设置Front-matter"></a>设置Front-matter</h2><p>在文章的 <code>---</code> 分割的区域就是 Front-matter</p><h3 id="可设置如下参数"><a href="#可设置如下参数" class="headerlink" title="可设置如下参数"></a>可设置如下参数</h3><table><thead><tr><th>参数</th><th>描述</th><th>默认值</th></tr></thead><tbody><tr><td>layout</td><td>布局</td><td></td></tr><tr><td>title</td><td>标题</td><td></td></tr><tr><td>date</td><td>建立日期</td><td>文件建立日期</td></tr><tr><td>updated</td><td>更新日期</td><td>文件更新日期</td></tr><tr><td>comments</td><td>开启文章的评论功能</td><td>true</td></tr><tr><td>tags</td><td>标签</td><td>（不适用于分页）</td></tr><tr><td>categories</td><td>分类</td><td>（不适用于分页）</td></tr><tr><td>permalink</td><td>覆盖文章网址</td></tr></tbody></table><h3 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">- Diary</span><br><span class="line">tags:</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br></pre></td></tr></table></figure><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//地址可省略</span><br><span class="line">&#123;% blockquote Seth Godin  %&#125;</span><br><span class="line">Every interaction is both precious and an opportunity to delight.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure><blockquote><p>Every interaction is both precious and an opportunity to delight.</p><footer><strong>Seth Godin</strong></footer></blockquote><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure><h2 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a>iframe</h2><p><code>{ % iframe url [width] [height] % }</code></p><h2 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h2><p><code>{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %}</code></p><img src="/image/demo.png" width="76" height="66" title="底部图片描述 alt文字描述">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;主要介绍下如何用 &lt;code&gt;hexo&lt;/code&gt;  与 &lt;code&gt;markdown&lt;/code&gt; 写文章的一些技巧,由于在文章中采用&lt;code&gt;markdown&lt;/code&gt;语法会导致主页的内容中出现 &lt;code&gt;##&lt;/code&gt; 等的渲染,导致主页混乱,所以需要在
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://idcpj.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>demo2</title>
+    <link href="http://idcpj.github.io/2019/02/12/demo2/"/>
+    <id>http://idcpj.github.io/2019/02/12/demo2/</id>
+    <published>2019-02-12T09:24:00.000Z</published>
+    <updated>2019-02-13T02:31:22.155Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello</span><br></pre></td></tr></table></figure><p>哈哈</p><p>hello <a href="http://idcpj.github.io/2019/02/12/demo2/">http://idcpj.github.io/2019/02/12/demo2/</a> bye</p>]]></content>
     
     <summary type="html">
     
@@ -35,24 +58,23 @@
     </summary>
     
     
-      <category term="demo2;demo3;demo4" scheme="http://yoursite.com/tags/demo2-demo3-demo4/"/>
-    
   </entry>
   
   <entry>
     <title>demo</title>
-    <link href="http://yoursite.com/2019/02/12/demo/"/>
-    <id>http://yoursite.com/2019/02/12/demo/</id>
+    <link href="http://idcpj.github.io/2019/02/12/demo/"/>
+    <id>http://idcpj.github.io/2019/02/12/demo/</id>
     <published>2019-02-12T08:57:29.000Z</published>
     <updated>2019-02-12T08:57:38.907Z</updated>
     
-    <content type="html"><![CDATA[<p>this is a demo</p>]]></content>
+    <content type="html"><![CDATA[<p>this is a demo</p><p>hello <a href="http://idcpj.github.io/2019/02/12/demo/">http://idcpj.github.io/2019/02/12/demo/</a> bye</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;this is a demo&lt;/p&gt;
+&lt;p&gt;hello &lt;a href=&quot;http://idcpj.github.io/2019/02/12/demo/&quot;&gt;http://idcpj.github.io/2019/02/12/demo/&lt;/a&gt; bye&lt;/p&gt;
 
       
     
@@ -63,26 +85,40 @@
   
   <entry>
     <title>My New Post</title>
-    <link href="http://yoursite.com/2019/02/12/My-New-Post/"/>
-    <id>http://yoursite.com/2019/02/12/My-New-Post/</id>
+    <link href="http://idcpj.github.io/2019/02/12/My-New-Post/"/>
+    <id>http://idcpj.github.io/2019/02/12/My-New-Post/</id>
     <published>2019-02-12T07:44:15.000Z</published>
-    <updated>2019-02-12T07:44:15.767Z</updated>
+    <updated>2019-02-13T02:52:04.826Z</updated>
+    
+    <content type="html"><![CDATA[<p>== 二级标题 ==</p><p>您可以使用’’段落标题’’来更好地编排文章结构。</p><p>维基的软件会自动将文章中的标题生成一个目录。</p><p>=== 三级标题 ===</p><p>输入更多的“等于号”(=)可以创建更多下一级标题。</p><p>==== 四级标题 ====</p><p>请不要跳跃标题等级，例如二级标题之下直接就是四级标题，而没有三级标题。一级标题是页面名称（如帮助:编辑页面）。</p><p>请在输入标题时最少使用2个等于号(=)，而不是1个。</p><p>===== 五级标题 =====</p><p>hello <a href="http://idcpj.github.io/2019/02/12/My-New-Post/">http://idcpj.github.io/2019/02/12/My-New-Post/</a> bye</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;== 二级标题 ==&lt;/p&gt;
+&lt;p&gt;您可以使用’’段落标题’’来更好地编排文章结构。&lt;/p&gt;
+&lt;p&gt;维基的软件会自动将文章中的标题生成一个目录。&lt;/p&gt;
+&lt;p&gt;=== 三级标题 ===&lt;/p&gt;
+&lt;p&gt;输入更多的“等于号”(=)可以创建更多下一级标题。&lt;/p&gt;
+&lt;p&gt;====
+      
+    
     </summary>
+    
+      <category term="技术" scheme="http://idcpj.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/02/12/hello-world/"/>
-    <id>http://yoursite.com/2019/02/12/hello-world/</id>
+    <link href="http://idcpj.github.io/2019/02/12/hello-world/"/>
+    <id>http://idcpj.github.io/2019/02/12/hello-world/</id>
     <published>2019-02-12T06:05:38.229Z</published>
-    <updated>2017-10-28T00:39:58.000Z</updated>
+    <updated>2019-02-13T02:31:10.067Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><p>hello <a href="http://idcpj.github.io/2019/02/12/hello-world/">http://idcpj.github.io/2019/02/12/hello-world/</a> bye</p>]]></content>
     
     <summary type="html">
     
@@ -93,6 +129,10 @@
     
     </summary>
     
+    
+      <category term="demo" scheme="http://idcpj.github.io/tags/demo/"/>
+    
+      <category term="demo2" scheme="http://idcpj.github.io/tags/demo2/"/>
     
   </entry>
   
