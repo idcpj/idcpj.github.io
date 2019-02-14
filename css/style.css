@@ -72,8 +72,16 @@ div {
       #header .site-name #logo span, #header .site-name #logo:hover {
         color: #777; }
     #header .site-name .description {
-      margin: .2em 0 0;
+      margin: .2em 2em 0;
       color: #999; }
+    #header .site-name .quote {
+      border-left: 0.3em solid #ccc;
+      padding-left: 1em;
+      min-height: 2em;
+      margin-top: 1.2em; }
+      #header .site-name .quote .speech {
+        line-height: 2em;
+        font-size: 1.1em; }
   #header #nav-menu {
     margin: 10px 0 -1px;
     padding: 0;
