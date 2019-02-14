@@ -275,6 +275,7 @@ ga('create','UA-88390408-3','auto');ga('send','pageview');
 $(function(){
     var number = Math.floor(Math.random()*speach.length);
     var word = speach[number];
+    word = word.replace(/\t/,"<br/>");
     var index =  word.indexOf("@");
     if (index!==-1){
         var sentense = word.substring(0,index);
