@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[如何写一篇hexo的文章]]></title>
-    <url>%2F2019%2F02%2F13%2F%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[主要介绍下如何用 hexo 与 markdown 写文章的一些技巧,由于在文章中采用markdown语法会导致主页的内容中出现 ## 等的渲染,导致主页混乱,所以需要在文章第一段写一些文章简介,来避免主页混乱的问题 创建hexo的hexo new [post] 文章标题 设置Front-matter在文章的 --- 分割的区域就是 Front-matter 可设置如下参数 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签 （不适用于分页） categories 分类 （不适用于分页） permalink 覆盖文章网址 分类和标签12345categories:- Diarytags:- PS3- Games 引用1234//地址可省略&#123;% blockquote Seth Godin %&#125;Every interaction is both precious and an opportunity to delight.&#123;% endblockquote %&#125; Every interaction is both precious and an opportunity to delight. Seth Godin Array.map1array.map(callback[, thisArg]) iframe{ % iframe url [width] [height] % } Image{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %} 转载请说明出处 http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何写一篇hexo的文章</title>
+      <link href="/2019/02/13/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+      <url>/2019/02/13/%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<p>主要介绍下如何用 <code>hexo</code>  与 <code>markdown</code> 写文章的一些技巧,由于在文章中采用<code>markdown</code>语法会导致主页的内容中出现 <code>##</code> 等的渲染,导致主页混乱,所以需要在文章第一段写一些文章简介,来避免主页混乱的问题</p><h2 id="创建hexo的"><a href="#创建hexo的" class="headerlink" title="创建hexo的"></a>创建hexo的</h2><p><code>hexo new [post] 文章标题</code></p><h2 id="设置Front-matter"><a href="#设置Front-matter" class="headerlink" title="设置Front-matter"></a>设置Front-matter</h2><p>在文章的 <code>---</code> 分割的区域就是 Front-matter</p><h3 id="可设置如下参数"><a href="#可设置如下参数" class="headerlink" title="可设置如下参数"></a>可设置如下参数</h3><table><thead><tr><th>参数</th><th>描述</th><th>默认值</th></tr></thead><tbody><tr><td>layout</td><td>布局</td><td></td></tr><tr><td>title</td><td>标题</td><td></td></tr><tr><td>date</td><td>建立日期</td><td>文件建立日期</td></tr><tr><td>updated</td><td>更新日期</td><td>文件更新日期</td></tr><tr><td>comments</td><td>开启文章的评论功能</td><td>true</td></tr><tr><td>tags</td><td>标签</td><td>（不适用于分页）</td></tr><tr><td>categories</td><td>分类</td><td>（不适用于分页）</td></tr><tr><td>permalink</td><td>覆盖文章网址</td></tr></tbody></table><h3 id="分类和标签"><a href="#分类和标签" class="headerlink" title="分类和标签"></a>分类和标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">- Diary</span><br><span class="line">tags:</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br></pre></td></tr></table></figure><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//地址可省略</span><br><span class="line">&#123;% blockquote Seth Godin  %&#125;</span><br><span class="line">Every interaction is both precious and an opportunity to delight.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure><blockquote><p>Every interaction is both precious and an opportunity to delight.</p><footer><strong>Seth Godin</strong></footer></blockquote><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure><h2 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a>iframe</h2><p><code>{ % iframe url [width] [height] % }</code></p><h2 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h2><p><code>{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %}</code></p><img src="/image/demo.png" width="76" height="66" title="底部图片描述 alt文字描述"><p>转载请说明出处 <a href="http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/">http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/</a> </p>]]></content>
+      
+      
       <categories>
-        <category>技术</category>
+          
+          <category> 技术 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[demo2]]></title>
-    <url>%2F2019%2F02%2F12%2Fdemo2%2F</url>
-    <content type="text"><![CDATA[1hello 哈哈 转载请说明出处 http://idcpj.github.io/2019/02/12/demo2/]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[demo]]></title>
-    <url>%2F2019%2F02%2F12%2Fdemo%2F</url>
-    <content type="text"><![CDATA[this is a demo 转载请说明出处 http://idcpj.github.io/2019/02/12/demo/]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[My New Post]]></title>
-    <url>%2F2019%2F02%2F12%2FMy-New-Post%2F</url>
-    <content type="text"><![CDATA[== 二级标题 == 您可以使用’’段落标题’’来更好地编排文章结构。 维基的软件会自动将文章中的标题生成一个目录。 === 三级标题 === 输入更多的“等于号”(=)可以创建更多下一级标题。 ==== 四级标题 ==== 请不要跳跃标题等级，例如二级标题之下直接就是四级标题，而没有三级标题。一级标题是页面名称（如帮助:编辑页面）。 请在输入标题时最少使用2个等于号(=)，而不是1个。 ===== 五级标题 ===== 转载请说明出处 http://idcpj.github.io/2019/02/12/My-New-Post/]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F02%2F12%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment 转载请说明出处 http://idcpj.github.io/2019/02/12/hello-world/]]></content>
-      <tags>
-        <tag>demo</tag>
-        <tag>demo2</tag>
-      </tags>
-  </entry>
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>

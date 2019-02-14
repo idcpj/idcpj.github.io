@@ -228,7 +228,7 @@ div {
     font-size: 15px;
     line-height: 1.77;
     color: #444;
-    padding-top: 15px;
+    padding-top: 50px;
     text-align: justify;
     text-justify: distribute;
     word-break: normal; }
@@ -1302,7 +1302,8 @@ figure.highlight,
 
 #toc {
   line-height: 1em;
-  float: right; }
+  float: right;
+  box-shadow: 1px 2px 0px 0px #00000057; }
   #toc .toc {
     padding: 0;
     margin: 0.5em;
