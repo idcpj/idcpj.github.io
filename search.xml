@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[yaml配置文件用法]]></title>
+    <url>%2F2019%2F02%2F14%2Fyaml%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%94%A8%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[介绍 yaml 的一些基本用法 语法规则 大小写敏感 缩进时不允许使用Tab键，只允许使用空格。 缩进的空格数目不重要，只要相同层级的元素左侧对齐即可 表示注释，从这个字符一直到行尾，都会被解析器忽略。 支持数据格式 对象：键值对的集合，又称为映射（mapping）/ 哈希（hashes） / 字典（dictionary） 数组：一组按次序排列的值，又称为序列（sequence） / 列表（list） 纯量（scalars）：单个的、不可再分的值 对象animal: pets ⬇ { animal: &#39;pets&#39; }采用行内对象hash: { name: Steve, foo: bar } ⬇ { hash: { name: &#39;Steve&#39;, foo: &#39;bar&#39; } } 数组 用连线开头的表示数组 123- Cat- Dog- Goldfish ⬇[ &#39;Cat&#39;, &#39;Dog&#39;, &#39;Goldfish&#39; ] 多为数组 1234- - Cat - Dog - Goldfish ⬇[ [ &#39;Cat&#39;, &#39;Dog&#39;, &#39;Goldfish&#39; ] ] 数组也可以采用行内表示法animal: [Cat, Dog]⬇{ animal: [ &#39;Cat&#39;, &#39;Dog&#39; ] } 复合结构123456789languages: - Ruby - Perl - Python websites: YAML: yaml.org Ruby: ruby-lang.org Python: python.org Perl: use.perl.org ⬇12345678910111213&#123; languages: [ &apos;Ruby&apos;, &apos;Perl&apos;, &apos;Python&apos; ], websites: &#123; YAML: &apos;yaml.org&apos;, Ruby: &apos;ruby-lang.org&apos;, Python: &apos;python.org&apos;, Perl: &apos;use.perl.org&apos; &#125;&#125; 纯量不可再分的元素 字符串 布尔值 isSet: true -&gt; js {isSet: true } 整数 浮点数 number: 12.30 -&gt;js {number:12.30} Null parent: ~ -&gt; {parent:null} 时间 iso8601: 2001-12-14t21:59:43.10-05:00 -&gt;js { iso8601: new Date(&#39;2001-12-14t21:59:43.10-05:00&#39;) } 日期 date: 1976-07-31 -&gt; js { date: new Date(&#39;1976-07-31&#39;) } 字符串 双引号不会对特殊字符转义12s1: &apos;内容\n字符串&apos;s2: &quot;内容\n字符串&quot; ⬇{ s1: &#39;内容\\n字符串&#39;, s2: &#39;内容\n字符串&#39; } 字符串可以写成多行，从第二行开始，必须有一个单空格缩进。换行符会被转为空格123str: 这是一段 多行 字符串 ⬇{ str: &#39;这是一段 多行 字符串&#39; } 多行字符串可以使用|保留换行符，也可以使用&gt;折叠换行123456this: | Foo Barthat: &gt; Foo Bar ⬇{ this: &#39;Foo\nBar\n&#39;, that: &#39;Foo Bar\n&#39; } +表示保留文字块末尾的换行，-表示删除字符串末尾的换行123456s1: | Foos2: |+ Foos3: |- Fo ⬇1&#123; s1: &apos;Foo\n&apos;, s2: &apos;Foo\n\n\n&apos;, s3: &apos;Foo&apos; &#125; 强制转换数据类型使用两个 !!12e: !!str 123f: !!str true ⬇{e:&quot;123&quot;,f:&quot;true&quot;} 转载请说明出处 http://idcpj.github.io/2019/02/14/yaml配置文件用法/]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>yaml</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[如何写一篇hexo的文章]]></title>
     <url>%2F2019%2F02%2F13%2F%E5%A6%82%E4%BD%95%E5%86%99%E4%B8%80%E7%AF%87hexo%E7%9A%84%E6%96%87%E7%AB%A0%2F</url>
     <content type="text"><![CDATA[介绍如何用 markdown 的语法结合 hexo 的标签 写文章 文章截断在需要截断的地方使用&lt;!--more--&gt; 创建hexo的hexo new [post] 文章标题 设置Front-matter在文章的 --- 分割的区域就是 Front-matter 可设置如下参数 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签 （不适用于分页） categories 分类 （不适用于分页） permalink 覆盖文章网址 donate 开启打赏 分类和标签12345categories:- Diarytags:- PS3- Games 引用123&#123;% blockquote Seth Godin %&#125;Every interaction is both precious and an opportunity to delight.&#123;% endblockquote %&#125; 显示:Every interaction is both precious and an opportunity to delight. Seth Godin 函数演示123&#123; % codeblock Array.map %&#125;array.map(callback[, thisArg])&#123;% endcodeblock %&#125; 显示:Array.map1array.map(callback[, thisArg]) iframe{ % iframe url [width] [height] % } Image{ % img [class names] /path/to/image [width] [height] [title text [alt text]] %} 参考资料的书写方式1.[doc name (英文)](http://www.demo.com)eg: 1. LDAP 轻型目录访问协议 wiki (英文文) 转载请说明出处 http://idcpj.github.io/2019/02/13/如何写一篇hexo的文章/]]></content>
