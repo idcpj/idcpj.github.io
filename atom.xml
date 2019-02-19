@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idcpj.github.io/"/>
-  <updated>2019-02-15T07:44:02.015Z</updated>
+  <updated>2019-02-19T06:10:00.422Z</updated>
   <id>http://idcpj.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生成不同压缩比例的图片</title>
+    <link href="http://idcpj.github.io/2019/02/19/%E7%94%9F%E6%88%90%E4%B8%8D%E5%90%8C%E5%8E%8B%E7%BC%A9%E6%AF%94%E4%BE%8B%E7%9A%84%E5%9B%BE%E7%89%87/"/>
+    <id>http://idcpj.github.io/2019/02/19/生成不同压缩比例的图片/</id>
+    <published>2019-02-19T06:00:44.000Z</published>
+    <updated>2019-02-19T06:10:00.422Z</updated>
+    
+    <content type="html"><![CDATA[<p>适用于需要 ios 或者安卓对同张图片需要进行1倍,2倍,3倍比例的缩放.或者指定缩放倍数</p><a id="more"></a><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>项目地址 :<a href="https://github.com/idcpj/zoom_img" target="_blank" rel="noopener">https://github.com/idcpj/zoom_img</a></p><ul><li>python3</li><li>pip install Image</li></ul><h2 id="安装测试"><a href="#安装测试" class="headerlink" title="安装测试"></a>安装测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; cd test</span><br><span class="line">&gt; python create_img.py</span><br></pre></td></tr></table></figure><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python create_img.py</span><br></pre></td></tr></table></figure><p>缩放可以使用使用分数形式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 请输入缩小倍数</span><br><span class="line">&gt; 1/9</span><br></pre></td></tr></table></figure></p><p>转载请说明出处 <a href="http://idcpj.github.io/2019/02/19/生成不同压缩比例的图片/">http://idcpj.github.io/2019/02/19/生成不同压缩比例的图片/</a> </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;适用于需要 ios 或者安卓对同张图片需要进行1倍,2倍,3倍比例的缩放.或者指定缩放倍数&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://idcpj.github.io/categories/python/"/>
+    
+    
+      <category term="ios" scheme="http://idcpj.github.io/tags/ios/"/>
+    
+      <category term="android" scheme="http://idcpj.github.io/tags/android/"/>
+    
+      <category term="移动端" scheme="http://idcpj.github.io/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+    
+      <category term="python" scheme="http://idcpj.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>css3动画</title>
