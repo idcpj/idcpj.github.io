@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://idcpj.github.io/"/>
-  <updated>2019-02-19T06:10:00.422Z</updated>
+  <updated>2019-03-13T01:48:56.424Z</updated>
   <id>http://idcpj.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>拖拉插件</title>
+    <link href="http://idcpj.github.io/2019/03/13/%E6%8B%96%E6%8B%89%E6%8F%92%E4%BB%B6/"/>
+    <id>http://idcpj.github.io/2019/03/13/拖拉插件/</id>
+    <published>2019-03-13T01:08:54.000Z</published>
+    <updated>2019-03-13T01:48:56.424Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于js的新手对交互效果的研究一直都处于哪来用节点,本文通过对拖拉的交互研究,来试探下js的交互方式</p><a id="more"></a><h2 id="拖拉事件"><a href="#拖拉事件" class="headerlink" title="拖拉事件"></a>拖拉事件</h2><p>在网页交中,拖拉事件是非常常见的,如对列表进行排序等操作,如果用操作事件就会非常人性化.那么交互事件分为哪些阶段呢</p><h3 id="拖拉-DOM"><a href="#拖拉-DOM" class="headerlink" title="拖拉 DOM"></a>拖拉 DOM</h3><p>需要拖拉的目标一共有三个事件:</p><ol><li><code>drag</code> 拖拉过程中,持续触发的事件(相隔几百毫秒)</li><li><code>dragstart</code> 开始拖拉时触发,可通过回调函数中,<code>event</code>的<code>target</code>属性来获取拖拉的 DOM 信息</li><li><code>dragend</code> 结束拖拉时候触发, <code>target</code>是拖拉的 DOM 信息</li></ol><h3 id="目标-DOM"><a href="#目标-DOM" class="headerlink" title="目标 DOM"></a>目标 DOM</h3><ol><li><code>dragenter</code> 当拖拉 DOM 进入目标 DOM 时触发,<code>target</code>属性是当前目标 DOM </li><li><code>dragover</code> 进入目标 DOM 上方,持续触发,<code>target</code>节点是当前 DOM </li><li><code>dragleave</code> 离开目标 DOM 时触发,<code>target</code>节点是当前 DOM </li><li><code>drop</code> 被拖拉的 DOM 释放到目标 DOM 时触发,<code>target</code>节点是当前 DOM </li></ol><h2 id="简单的拖拉事件"><a href="#简单的拖拉事件" class="headerlink" title="简单的拖拉事件"></a>简单的拖拉事件</h2><p>本代码来自阮一峰的教程</p><script async src="//jsrun.net/y3XKp/embed/all/light/"></script><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol><li><a href="https://wangdoc.com/javascript/events/drag.html#%E6%8B%96%E6%8B%89%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%A7%8D%E7%B1%BB" target="_blank" rel="noopener">拖拉事件 (阮一峰) </a></li></ol><p>转载请说明出处 <a href="http://idcpj.github.io/2019/03/13/拖拉插件/">http://idcpj.github.io/2019/03/13/拖拉插件/</a> </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对于js的新手对交互效果的研究一直都处于哪来用节点,本文通过对拖拉的交互研究,来试探下js的交互方式&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>生成不同压缩比例的图片</title>

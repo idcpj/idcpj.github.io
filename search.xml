@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[拖拉插件]]></title>
+    <url>%2F2019%2F03%2F13%2F%E6%8B%96%E6%8B%89%E6%8F%92%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[对于js的新手对交互效果的研究一直都处于哪来用节点,本文通过对拖拉的交互研究,来试探下js的交互方式 拖拉事件在网页交中,拖拉事件是非常常见的,如对列表进行排序等操作,如果用操作事件就会非常人性化.那么交互事件分为哪些阶段呢 拖拉 DOM需要拖拉的目标一共有三个事件: drag 拖拉过程中,持续触发的事件(相隔几百毫秒) dragstart 开始拖拉时触发,可通过回调函数中,event的target属性来获取拖拉的 DOM 信息 dragend 结束拖拉时候触发, target是拖拉的 DOM 信息 目标 DOM dragenter 当拖拉 DOM 进入目标 DOM 时触发,target属性是当前目标 DOM dragover 进入目标 DOM 上方,持续触发,target节点是当前 DOM dragleave 离开目标 DOM 时触发,target节点是当前 DOM drop 被拖拉的 DOM 释放到目标 DOM 时触发,target节点是当前 DOM 简单的拖拉事件本代码来自阮一峰的教程 参考 拖拉事件 (阮一峰) 转载请说明出处 http://idcpj.github.io/2019/03/13/拖拉插件/]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[生成不同压缩比例的图片]]></title>
     <url>%2F2019%2F02%2F19%2F%E7%94%9F%E6%88%90%E4%B8%8D%E5%90%8C%E5%8E%8B%E7%BC%A9%E6%AF%94%E4%BE%8B%E7%9A%84%E5%9B%BE%E7%89%87%2F</url>
     <content type="text"><![CDATA[适用于需要 ios 或者安卓对同张图片需要进行1倍,2倍,3倍比例的缩放.或者指定缩放倍数 安装项目地址 :https://github.com/idcpj/zoom_img python3 pip install Image 安装测试12&gt; cd test&gt; python create_img.py 使用1python create_img.py 缩放可以使用使用分数形式12&gt; 请输入缩小倍数&gt; 1/9 转载请说明出处 http://idcpj.github.io/2019/02/19/生成不同压缩比例的图片/]]></content>
