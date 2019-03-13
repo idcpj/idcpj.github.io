@@ -4,6 +4,13 @@
     <title><![CDATA[拖拉插件]]></title>
     <url>%2F2019%2F03%2F13%2F%E6%8B%96%E6%8B%89%E6%8F%92%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[多数js的新手对交互效果的研究一直都处于拿来用阶段,本文通过对拖拉的交互研究,来试探下js的交互方式 拖拉事件在网页交中,拖拉事件是非常常见的,如对列表进行排序等操作,用拖拉事件会非常人性化.那么交互事件分为哪些阶段呢 拖拉 DOM需要拖拉的目标一共有三个事件: event的target属性来获取拖拉的 DOM 信息 drag 拖拉过程中,持续触发的事件(相隔几百毫秒) dragstart 开始拖拉时触发,可通过回调函数中 dragend 结束拖拉时候触发 目标 DOMtarget属性是当前目标 DOM dragenter 当拖拉 DOM 进入目标 DOM 时触发 dragover 进入目标 DOM 上方,持续触发 dragleave 离开目标 DOM 时触发 drop 被拖拉的 DOM 释放到目标 DOM 时触发 简单的拖拉事件本代码来自阮一峰的教程 若操作无效,请复制到本地操作 此案例有很多需要优化的地方,比如变量对全局造成污染,无法复用,回调函数设置复杂等 制作成插件学习一个新的js知识,最好的方法就是把他们制作成插件.这样既有一个可用的组件能用,且可以更好的掌握不通知识对针对插件的优化 若操作无效,请复制到本地操作 有两种调用方式: 一种是不需要调用函数drop(&#39;.dropzone&#39;,&#39;.draggable&#39;);参数一位可放置区域,参数二为可拖拽区域 第二种可设置回调函数,毕竟需求千奇百怪,没有回调怎么可以. 1234567891011121314151617181920212223242526drop('.dropzone','.draggable',&#123; drag:function(e)&#123; e.target.style.backgroundColor='#ccc'; e.target.style.opacity=0.5; &#125;, dragstart:function(e)&#123; e.target.style.backgroundColor='red' &#125;, dragend:function(e)&#123; e.target.style.backgroundColor=''; e.target.style.opacity=''; &#125;, dragenter:function(e)&#123; e.target.style.backgroundColor = 'blue'; &#125;, dragover:function(e)&#123; e.target.style.backgroundColor='green'; &#125;, dragleave:function(e)&#123; e.target.style.backgroundColor=''; &#125;, drop:function (e,node) &#123; node.parentNode.removeChild(node); e.target.appendChild(node); &#125;&#125;); 参考 拖拉事件 (阮一峰) 转载请说明出处 http://idcpj.github.io/2019/03/13/拖拉插件/]]></content>
+      <categories>
+        <category>js</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+        <tag>js事件</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[生成不同压缩比例的图片]]></title>
